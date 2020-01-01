@@ -16,8 +16,6 @@ int main()
 
     // Print CodeSum and CodeProduct to the terminal
     std::cout << std::endl;
-    std::cout << CodeSum << std::endl;
-    std::cout << CodeProduct << std::endl;
 
     std::cout << "+ There are 3 numbers in the code" << std::endl;
     std::cout << "+ The codes add-up to: " << CodeSum << std::endl;
@@ -33,12 +31,13 @@ int main()
 
     if (GuessSum == CodeSum && GuessProduct == CodeProduct)
     {
-        std::cout << "You win!";
+        std::cout << "You win!" << std::endl;
     }
 
-     else
-     {
-        std::cout << "You lose!";
-     }
+    else
+    {
+        std::cout << "You lose!" << std::endl;
+    }
+
     return 0;
  }
